@@ -1,10 +1,25 @@
 version: "1.0"
 info:
   model: int-scaffold
+services:
+- serviceName: edge.pc_git2.integrations:githubservice1
+  packages:
+  - name: EdgePC_Git2
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.560
 packages:
 - name: EdgePC_Git2
   gitServerName: PC_github
   gitUrl: https://github.com/pchew999/EdgePC_Git2
   gitUsername: pchew999
   gitToken: edge.scaffolding.EdgePC_Git2.PC_github.gitToken
+  gitBranch: main
+- name: pcGitImportPackage
+  gitServerName: PC_github
+  gitUrl: https://github.com/pchew999
+  gitUsername: pchew999
+  gitToken: edge.scaffolding.pcGitImportPackage.PC_github.gitToken
   gitBranch: main

@@ -7,16 +7,18 @@
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="pcGitImportPackage">2.0</value>
+  </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">2</value>
+  <value name="build">3</value>
   <null name="description"/>
   <value name="created_date">15-11-2023 06:56:01 GMT</value>
   <null name="extendedProperties"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2023-11-15T06:56:04.557003117Z</value>
+  <value name="lastUpdated">2023-11-15T06:57:59.865384382Z</value>
   <value name="wmProjectId">fl7002a62b73cf24632a4891</value>
   <value name="creator">Peng Chew</value>
 </Values>
